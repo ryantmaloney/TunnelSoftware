@@ -6,7 +6,7 @@ function [stimTimes, stim, duration] = constructStimulus(chargeTime)
 %   To do:
 %   1. Add capability for >1 odor pair or concentration
 %   2. Convert to GUI for easier setup of complicated exp protocols
-% 
+%
 %   Revised July 21, 2013
 %   Kyle Honegger, Harvard & CSHL
 
@@ -56,6 +56,7 @@ conc = [0.03 .5];%  -aMW ctrl
 % preTime = 180;                       % wait time before first odor block
 % postTime = 30;                      % wait time after last odor block
 
+%Adjust the duration for odors
 odorDur = 30;                        % in sec
 isi = 10;                            % in sec
 nBlocks = 1;                         % number of odor blocks
